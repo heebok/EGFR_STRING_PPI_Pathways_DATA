@@ -1,0 +1,2 @@
+# EGFR_STRING_PPI_Pathways_DATA
+Public Access for the EGFR_STRING_PPI_Pathways_DATA
