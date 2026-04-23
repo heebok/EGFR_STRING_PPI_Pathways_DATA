@@ -1,0 +1,74 @@
+======================================================================
+  PPI Phosphosite Validation — Text Summary
+  Generated: 2026-04-23 00:47:20
+======================================================================
+
+  Total analyzed PPI edges : 116
+  Grade A (exact match)   : 35 (30.2%)
+  Grade B (theoretical)   : 6 (5.2%)
+  Grade C (non-phospho)   : 64 (55.2%)
+  Grade D (no evidence)   : 11 (9.5%)
+
+──────────────────────────────────────────────────────────────────────
+  ✅ Grade A — observed ↔ DB match
+──────────────────────────────────────────────────────────────────────
+  SOS2         → GRB2          [score=0.90] Matched sites: Y209
+  PTPN11       → GAB2          [score=1.00] Matched sites: Y614, Y293, Y643
+  Unique Path #9 (Original #11): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  SOS1         → GRB2          [score=0.90] Matched sites: Y209
+  GAB1         → GRB2          [score=0.90] Matched sites: Y209
+  PTK2         → GRB2          [score=0.93] Matched sites: Y209
+  SRC          → GRB2          [score=0.90] Matched sites: Y209
+  Unique Path #25 (Original #31): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  FRS2         → GRB2          [score=0.90] Matched sites: Y209
+  Unique Path #66 (Original #231): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  GAB2         → GRB2          [score=0.93] Matched sites: Y209
+  Unique Path #60 (Original #163): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  Unique Path #55 (Original #114): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  SOS1         → PTPN11        [score=0.90] Matched sites: Y62
+  ERBB3        → GRB2          [score=0.90] Matched sites: Y209
+  PIK3CA       → PIK3R1        [score=0.90] Matched sites: Y467
+  Unique Path #51 (Original #89): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  PDGFRB       → GRB2          [score=0.90] Matched sites: Y209
+  Unique Path #52 (Original #90): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  PTPN11       → GRB2          [score=0.93] Matched sites: Y209
+  ERBB2        → GRB2          [score=0.90] Matched sites: Y209
+  SHC1         → GRB2          [score=0.90] Matched sites: Y209
+  SOS1         → PTK2          [score=1.00] Matched sites: Y570, Y576, Y861
+  SRC          → CAV1          [score=1.00] Matched sites: Y14, Y6, S6
+  ERBB4        → GRB2          [score=0.90] Matched sites: Y209
+  IRS1         → GRB2          [score=0.90] Matched sites: Y209
+  ERBB2        → CD44          [score=0.95] Matched sites: S697, S706
+  Unique Path #63 (Original #216): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  Unique Path #27 (Original #33): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  Unique Path #39 (Original #58): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  PIK3R1       → PIK3R2        [score=0.93] Matched sites: Y464
+  Unique Path #43 (Original #71): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  PIK3R3       → PIK3R2        [score=0.90] Matched sites: Y464
+  SRC          → SHC1          [score=0.90] Matched sites: Y428
+  PIK3CA       → PIK3R2        [score=0.90] Matched sites: Y464
+
+──────────────────────────────────────────────────────────────────────
+  ⚠️  Grade B — theoretical site
+──────────────────────────────────────────────────────────────────────
+  PTPN11       → IRS1          [score=0.65] Theoretical sites: Y896, Y1179, UniProt:S3, UniProt:S99
+  ERBB2        → SRC           [score=0.65] Theoretical sites: Y216, UniProt:S17, UniProt:S75, UniProt:Y187
+  NRG1         → ERBB3         [score=0.65] Theoretical sites: Y1289, UniProt:S686, UniProt:S982
+  PTPN11       → PDGFRB        [score=0.65] Theoretical sites: Y1009, Y751, Y740, Y771
+  PTPN11       → GAB1          [score=0.65] Theoretical sites: Y627, Y472, Y659, Y589
+  ERBB2        → ERBB3         [score=0.65] Theoretical sites: Y1289, Y1199, UniProt:S686, UniProt:S982
+
+──────────────────────────────────────────────────────────────────────
+  ❌ Grade D — false-positive risk
+──────────────────────────────────────────────────────────────────────
+  Unique Path #44 (Original #72): EGFR → NRG1          [score=0.12] No phosphorylation evidence for Unique Path #44 (Original #72): EGFR→NRG1 in Omn
+  SHC1         → SOS2          [score=0.12] No phosphorylation evidence for SHC1→SOS2 in OmniPath, SIGNOR, iPTMnet, or UniPr
+  Unique Path #29 (Original #36): EGFR → NRG1          [score=0.12] No phosphorylation evidence for Unique Path #29 (Original #36): EGFR→NRG1 in Omn
+  Unique Path #54 (Original #112): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #54 (Original #112): EGFR→PIK3CA in 
+  Unique Path #4 (Original #4): EGFR → NRG1          [score=0.12] No phosphorylation evidence for Unique Path #4 (Original #4): EGFR→NRG1 in OmniP
+  Unique Path #32 (Original #41): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #32 (Original #41): EGFR→PIK3CA in O
+  Unique Path #20 (Original #26): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #20 (Original #26): EGFR→PIK3CA in O
+  Unique Path #40 (Original #60): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #40 (Original #60): EGFR→PIK3CA in O
+  Unique Path #14 (Original #19): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #14 (Original #19): EGFR→PIK3CA in O
+  Unique Path #41 (Original #65): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #41 (Original #65): EGFR→PIK3CA in O
+  Unique Path #38 (Original #53): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #38 (Original #53): EGFR→PIK3CA in O

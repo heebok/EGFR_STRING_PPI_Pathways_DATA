@@ -1,0 +1,65 @@
+======================================================================
+  PPI Phosphosite Validation — Text Summary
+  Generated: 2026-04-23 00:20:07
+======================================================================
+
+  Total analyzed PPI edges : 89
+  Grade A (exact match)   : 42 (47.2%)
+  Grade B (theoretical)   : 1 (1.1%)
+  Grade C (non-phospho)   : 46 (51.7%)
+  Grade D (no evidence)   : 0 (0.0%)
+
+──────────────────────────────────────────────────────────────────────
+  ✅ Grade A — observed ↔ DB match
+──────────────────────────────────────────────────────────────────────
+  Unique Path #47 (Original #132): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  SRC          → BCAR1         [score=0.95] Matched sites: Y387, Y249
+  LCP2         → SYK           [score=0.90] Matched sites: Y323
+  TLN2         → ZYX           [score=0.95] Matched sites: S143, S344
+  Unique Path #43 (Original #118): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  PXN          → PTK2          [score=0.98] Matched sites: Y570, Y576
+  TLN1         → ZYX           [score=0.95] Matched sites: S143, S344
+  SOS1         → GRB2          [score=0.90] Matched sites: Y209
+  ERBB3        → SHC1          [score=0.90] Matched sites: Y427
+  Unique Path #18 (Original #29): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  Unique Path #17 (Original #28): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  Unique Path #2 (Original #2): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  SHC1         → IGF1R         [score=0.93] Matched sites: Y1166
+  ERBB2        → SHC1          [score=0.90] Matched sites: Y427
+  Unique Path #10 (Original #12): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  Unique Path #22 (Original #36): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  Unique Path #35 (Original #72): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  Unique Path #19 (Original #31): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  Unique Path #1 (Original #1): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  SOS1         → PTPN11        [score=0.90] Matched sites: Y62
+  ERBB4        → SHC1          [score=0.90] Matched sites: Y427
+  Unique Path #24 (Original #39): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  Unique Path #9 (Original #11): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  Unique Path #31 (Original #56): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  ERBB3        → GRB2          [score=0.90] Matched sites: Y209
+  PTK2         → PXN           [score=0.93] Matched sites: Y118
+  Unique Path #13 (Original #16): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  SRC          → PXN           [score=0.90] Matched sites: Y118
+  BCAR1        → PTK2          [score=0.98] Matched sites: Y570, Y576
+  ERBB2        → GRB2          [score=0.90] Matched sites: Y209
+  SHC1         → GRB2          [score=0.93] Matched sites: Y209
+  SOS1         → PTK2          [score=0.95] Matched sites: Y570, Y576
+  Unique Path #25 (Original #40): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  VAV1         → SYK           [score=0.90] Matched sites: Y323
+  Unique Path #28 (Original #50): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  SRC          → SYK           [score=0.90] Matched sites: Y323
+  PTPN11       → GAB1          [score=0.93] Matched sites: Y659
+  SOS1         → SHC1          [score=0.90] Matched sites: Y427
+  Unique Path #20 (Original #32): EGFR → PTPN11        [score=0.90] Matched sites: Y62
+  PXN          → GIT1          [score=0.98] Matched sites: S362, S388
+  Unique Path #48 (Original #145): EGFR → SHC1          [score=0.90] Matched sites: Y427
+  PTK2         → BCAR1         [score=0.93] Matched sites: Y249
+
+──────────────────────────────────────────────────────────────────────
+  ⚠️  Grade B — theoretical site
+──────────────────────────────────────────────────────────────────────
+  PTK2         → SRC           [score=0.65] Theoretical sites: Y419, Y530, UniProt:S17, UniProt:S75
+
+──────────────────────────────────────────────────────────────────────
+  ❌ Grade D — false-positive risk
+──────────────────────────────────────────────────────────────────────

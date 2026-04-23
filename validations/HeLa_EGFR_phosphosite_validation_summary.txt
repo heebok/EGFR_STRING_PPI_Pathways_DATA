@@ -1,0 +1,41 @@
+======================================================================
+  PPI Phosphosite Validation — Text Summary
+  Generated: 2026-04-23 00:33:22
+======================================================================
+
+  Total analyzed PPI edges : 85
+  Grade A (exact match)   : 0 (0.0%)
+  Grade B (theoretical)   : 6 (7.1%)
+  Grade C (non-phospho)   : 66 (77.6%)
+  Grade D (no evidence)   : 13 (15.3%)
+
+──────────────────────────────────────────────────────────────────────
+  ✅ Grade A — observed ↔ DB match
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  ⚠️  Grade B — theoretical site
+──────────────────────────────────────────────────────────────────────
+  SRC          → BCAR1         [score=0.65] Theoretical sites: Y653, Y287, Y387, Y165
+  SRC          → ESR1          [score=0.65] Theoretical sites: Y537, UniProt:S104, UniProt:S106, UniProt:S118
+  ERBB2        → SRC           [score=0.65] Theoretical sites: Y216, UniProt:S17, UniProt:S75, UniProt:Y187
+  KRAS         → RAF1          [score=0.65] Theoretical sites: S259, S621, S338, T269
+  PIK3CA       → AKT1          [score=0.65] Theoretical sites: T308, S473, UniProt:S124, UniProt:S126
+  SRC          → HSP90AA1      [score=0.65] Theoretical sites: Y197, UniProt:T5, UniProt:T7, UniProt:S231
+
+──────────────────────────────────────────────────────────────────────
+  ❌ Grade D — false-positive risk
+──────────────────────────────────────────────────────────────────────
+  Unique Path #23 (Original #36): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #23 (Original #36): EGFR→PIK3CA in O
+  Unique Path #44 (Original #120): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #44 (Original #120): EGFR→PIK3CA in 
+  PIK3CA       → KRAS          [score=0.12] No phosphorylation evidence for PIK3CA→KRAS in OmniPath, SIGNOR, iPTMnet, or Uni
+  Unique Path #29 (Original #53): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #29 (Original #53): EGFR→PIK3CA in O
+  Unique Path #14 (Original #21): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #14 (Original #21): EGFR→PIK3CA in O
+  Unique Path #37 (Original #86): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #37 (Original #86): EGFR→PIK3CA in O
+  Unique Path #49 (Original #248): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #49 (Original #248): EGFR→PIK3CA in 
+  Unique Path #46 (Original #141): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #46 (Original #141): EGFR→PIK3CA in 
+  Unique Path #27 (Original #44): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #27 (Original #44): EGFR→PIK3CA in O
+  RAF1         → RAP1A         [score=0.12] No phosphorylation evidence for RAF1→RAP1A in OmniPath, SIGNOR, iPTMnet, or UniP
+  Unique Path #6 (Original #7): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #6 (Original #7): EGFR→PIK3CA in Omn
+  Unique Path #38 (Original #89): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #38 (Original #89): EGFR→PIK3CA in O
+  Unique Path #26 (Original #43): EGFR → PIK3CA        [score=0.12] No phosphorylation evidence for Unique Path #26 (Original #43): EGFR→PIK3CA in O
