@@ -3,25 +3,25 @@ Public Access for the EGFR_STRING_PPI_Pathways_DATA
 
 This directory contains the program links used in the paper, their usage instructions, input and output data, and the datasets used to validate the estimated paths. For the STRING PPI Pathways Program, please use the following link.
 
-STRING PPI Pathways Program Link :  
+# STRING PPI Pathways Program Link :  
 https://fast-ppi-string-web-dav78jwewvzrfe7bhj78ww.streamlit.app/
 
-<root directory>
-Manual: 
+#### root directory ####
+# Manual: 
 Fast PPI STRING v12.5 User Manual.pdf
 Fast_PPI_STRING_User_Manual.pdf
 
-Data Files:
+# Data Files:
  Input files : XXXX.json
  Output files: XXXX_results.txt
  Modified output files: _result_analysis.txt, _clean.txt, _topology.txt
-HEK293T
+# HEK293T
 EGFR_HEK293T_TimeSeries.json
 EGFR_HEK293T_TimeSeries_STRING_v12_results.txt
 EGFR_HEK293T_TimeSeries_STRING_v12_results_analysis.txt
 EGFR_HEK293T_TimeSeries_STRING_v12_results_clean.txt
 EGFR_HEK293T_TimeSeries_STRING_v12_results_topology.txt
-MDA-MB-468
+# MDA-MB-468
 EGFR_MDA-MB-468_Normal_TimeSeries.json
 EGFR_MDA-MB-468_Normal_TimeSeries_STRING_v12_results.txt
 EGFR_MDA-MB-468_Normal_TimeSeries_STRING_v12_results_analysis.txt
@@ -40,22 +40,24 @@ EGFR_MDA-MB-468_SHP2i_Wash_SHP2i_Washout_TimeSeries_STRING_v12_results_analysis.
 EGFR_MDA-MB-468_SHP2i_Wash_SHP2i_Washout_TimeSeries_STRING_v12_results_clean.txt
 EGFR_MDA-MB-468_SHP2i_Wash_SHP2i_Washout_TimeSeries_STRING_v12_results_topology.txt
 
-HeLa
+# HeLa
 HeLa_EGFR_TimeSeries.json
 HeLa_EGFR_TimeSeries_STRING_v12_results.txt
 HeLa_EGFR_TimeSeries_STRING_v12_results_analysis.txt
 HeLa_EGFR_TimeSeries_STRING_v12_results_clean.txt
 HeLa_EGFR_TimeSeries_STRING_v12_results_topology.txt
 
-<sub directory>  validations
-HEK293T
+#### sub directory ####  
+# validations
+
+# HEK293T
 EGFR_HEK293T_TimeSeries_STRING_v12_results_topology.txt
 EGFR_HEK293T_pathway_confidence_scores.tsv
 EGFR_HEK293T_phosphosite_validation_report.html
 EGFR_HEK293T_phosphosite_validation_results.tsv
 EGFR_HEK293T_phosphosite_validation_summary.txt
 EGFR_HEK293T_ppi_CELL_validation_result.html
-MDA-MB-468
+# MDA-MB-468
 EGFR_MDA-MB-468_Normal_TimeSeries_STRING_v12_results_topology.txt
 EGFR_MDA-MB-468_Normal_pathway_confidence_scores.tsv
 EGFR_MDA-MB-468_Normal_phosphosite_validation_report.html
@@ -76,7 +78,7 @@ EGFR_MDA-MB-468_SHP2i_Wash_SHP2i_Washout_phosphosite_validation_report.html
 EGFR_MDA-MB-468_SHP2i_Wash_SHP2i_Washout_phosphosite_validation_results.tsv
 EGFR_MDA-MB-468_SHP2i_Wash_SHP2i_Washout_phosphosite_validation_summary.txt
 EGFR_MDA-MB-468_SHP2i_Wash_SHP2i_Washout_ppi_CELL_validation_result.html
-HeLa
+# HeLa
 HeLa_EGFR_TimeSeries_STRING_v12_results_topology.txt
 HeLa_EGFR_pathway_confidence_scores.tsv
 HeLa_EGFR_phosphosite_validation_report.html
