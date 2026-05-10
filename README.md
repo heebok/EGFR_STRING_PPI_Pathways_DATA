@@ -87,6 +87,6 @@ HeLa_EGFR_phosphosite_validation_summary.txt
 HeLa_EGFR_ppi_CELL_validation_result.html
 
 # Programs for validation (Phosphosite, Celltype)
-Ppi_phosphosite_validator_v15_english.py
+Ppi phosphosite validator v15.py
 
 PPi_Celltype_validator_english_string_v12_channels.py
